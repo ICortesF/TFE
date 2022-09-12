@@ -1,5 +1,22 @@
 import sys, getopt
 
+#Ej. Llamada simple python3 app.py -a P 3650.5 28079 Malo      
+#Ej. Llamada ficheros python3 app.py -b -i entrada.csv -o salida.csv  
+
+def print_help():
+  print('app.py -a/b -i ifle=fichero_entrada -o ofile=fichero_salida Tipología PrecioM2Venta Municipio Estado')
+  print('               -h                          Ayuda')
+  print('               -a                          CasodeUsoA Rules')
+  print('               -b                          CasodeUsoB Rules')
+  print('               -i ifle=fichero_entrada     Procesa un fichero .csv')
+  print('               -o ofile=fichero_salida     Guarda los resultados en un fichero .csv file')
+  print('               Tipología                   P/U ->Plurifamiliar/Unifamiliar')
+  print('               PrecioM2Venta               decimal precio de la oferta')
+  print('               Municipio                   Cod.Ine')
+  print('               Estado                      Muy Bueno/Bueno/Malo/Muy Malo')
+
+
+
 def main(argv):
     casodeuso = "B"
     tipologia = "U"
