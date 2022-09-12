@@ -25,7 +25,7 @@ def main(argv):
     estado="Muy Bueno"
     inputfile = ""
     outputfile = ""
-    rulesfile = "Rules/CasodeUsoA.xlsx"
+
     try:
       opts, args = getopt.getopt(argv,"habi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
@@ -53,6 +53,11 @@ def main(argv):
             municipio=args[2]
             estado=args[3]
           
+    
+    import pyDMNrules
+    dmnRules =  pyDMNrules.DMN()
+
+   
 
 if __name__ == "__main__":
     main(sys.argv[1:])
