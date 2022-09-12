@@ -68,6 +68,10 @@ def main(argv):
     else:
         print(rulesfile+' loaded')
 
-
+    if len(inputfile)>0:
+      procesar_fichero(inputfile,outputfile, dmnRules)
+    else:
+      procesar_datos(tipologia, precioM2Venta, municipio, estado, dmnRules)
+      
 if __name__ == "__main__":
     main(sys.argv[1:])
