@@ -31,6 +31,22 @@ def procesar_datos(tipologia, precioM2Venta, municipio, estado, dmnRules):
   if 'errors' in status:
       print('With errors', status['errors'])
 
+def procesar_fichero(inputfile,outputfile, dmnRules):
+  print ('ifile=',inputfile)
+  print ('ofile=',outputfile)
+  import pandas as pd
+  dataTypes = {'Tipología': str,'PrecioM2Venta':float,'Municipio': str, 'Estado':str}
+
+  dfInput = pd.read_csv(inputfile, dtype=dataTypes, delimiter=';', decimal=',')
+  columns = {'Tipología': 'Tipología','PrecioM2Venta':'PrecioM2Venta','Municipio': 'Municipio', 'Estado':'Estado'}
+  (dfStatus, dfResults, dfDecision) = dmnRules.decidePandas(dfInput, headings=columns)
+
+  if dfStatus.where(dfStatus != 'no errors').count() > 0:
+      sys.displayhook(dfStatus)
+      print('has errors', dfStatus.loc['status' != 'no errors'])
+      sys.exit(0)
+  dfInput.insert(len(dfInput.columns), "CalificaInversion", dfResults['CalificaInversion Result'], allow_duplicates=True)
+  
 
 
 def main(argv):
