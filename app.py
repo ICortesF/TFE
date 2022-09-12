@@ -46,7 +46,8 @@ def procesar_fichero(inputfile,outputfile, dmnRules):
       print('has errors', dfStatus.loc['status' != 'no errors'])
       sys.exit(0)
   dfInput.insert(len(dfInput.columns), "CalificaInversion", dfResults['CalificaInversion Result'], allow_duplicates=True)
-  
+  if len(outputfile)>0:
+    dfInput.to_csv(outputfile, index=False, decimal=',', sep=';')
 
 
 def main(argv):
