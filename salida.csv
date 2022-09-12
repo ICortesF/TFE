@@ -1,0 +1,101 @@
+Tipología;PrecioM2Venta;Municipio;Estado;Precio;M2;Nombre;CalificaInversionA;CalificaInversionB
+P;1395,061728;02003;Malo;113000;81;Albacete;Mala;Mala
+P;1432,291667;02003;Bueno;275000;192;Albacete;Mala;Mala
+U;1306,818182;02003;Muy Malo;115000;88;Albacete;Mala;Mala
+U;1250,0;02003;Bueno;390000;312;Albacete;Normal;Normal
+P;1927,083333;02003;Muy Bueno;185000;96;Albacete;Mala;Mala
+U;2181,818182;03063;Malo;240000;110;Denia;Mala;Mala
+P;3666,666667;03063;Muy Bueno;220000;60;Denia;Mala;Mala
+P;1959,459459;03063;Bueno;290000;148;Denia;Normal;Normal
+U;1966,666667;03063;Bueno;590000;300;Denia;Normal;Normal
+U;88,95705521;06011;Bueno;14500;163;Almendralejo;Buena;Buena
+P;1088,888889;06011;Muy Bueno;98000;90;Almendralejo;Normal;Normal
+P;839,6226415;06011;Bueno;89000;106;Almendralejo;Buena;Normal
+U;354,1935484;06011;Muy Malo;54900;155;Almendralejo;Buena;Buena
+U;890,0;06083;Malo;178000;200;Merida;Normal;Normal
+P;993,75;06083;Malo;79500;80;Merida;Mala;Mala
+P;837,2093023;06083;Bueno;72000;86;Merida;Buena;Buena
+P;1367,346939;06083;Muy Bueno;134000;98;Merida;Mala;Mala
+U;1370,0;06083;Bueno;137000;100;Merida;Mala;Mala
+U;2475,247525;07033;Bueno;250000;101;Manacor;Mala;Mala
+P;2296,296296;07033;Bueno;310000;135;Manacor;Mala;Mala
+U;1666,666667;07033;Muy Bueno;750000;450;Manacor;Normal;Normal
+P;1672,566372;07033;Malo;189000;113;Manacor;Mala;Mala
+P;3666,666667;07033;Muy Bueno;99000;27;Manacor;Mala;Mala
+U;957,4468085;07033;Muy Malo;225000;235;Manacor;Normal;Buena
+P;4566,26506;08019;Bueno;379000;83;Bracelona;Normal;Mala
+P;3521,126761;08019;Malo;250000;71;Bracelona;Normal;Normal
+P;4090,909091;08019;Muy Bueno;450000;110;Bracelona;Buena;Normal
+P;4381,443299;08019;Malo;425000;97;Bracelona;Mala;Mala
+P;2037,037037;08096;Bueno;165000;81;Granollers;Normal;Normal
+U;2210,843373;08096;Muy Bueno;367000;166;Granollers;Normal;Normal
+P;2500,0;08096;Bueno;165000;66;Granollers;Mala;Mala
+U;1286,644951;08096;Bueno;395000;307;Granollers;Buena;Buena
+P;1675,675676;08096;Muy Malo;124000;74;Granollers;Mala;Mala
+P;2365,591398;11030;Malo;220000;93;Rota;Mala;Mala
+P;2272,727273;11030;Muy Malo;150000;66;Rota;Mala;Mala
+U;2486,03352;11030;Bueno;445000;179;Rota;Mala;Mala
+P;3040,0;11030;Bueno;228000;75;Rota;Mala;Mala
+P;1777,777778;04079;Muy Malo;160000;90;Roquetas;Mala;Mala
+P;1533,333333;04079;Malo;115000;75;Roquetas;Mala;Mala
+U;1135,616438;04079;Malo;82900;73;Roquetas;Normal;Normal
+P;1710,526316;04079;Muy Bueno;195000;114;Roquetas;Normal;Mala
+P;1500,0;09219;Bueno;120000;80;Mirnada de ebro;Mala;Mala
+P;1740,0;09219;Malo;87000;50;Mirnada de ebro;Mala;Mala
+P;1252,747253;09219;Muy Bueno;114000;91;Mirnada de ebro;Normal;Mala
+P;1150,0;12084;Bueno;115000;100;Onda;Mala;Mala
+P;900,0;12084;Bueno;72000;80;Onda;Mala;Mala
+U;1000,0;12084;Malo;100000;100;Onda;Mala;Mala
+U;1428,571429;12084;Bueno;200000;140;Onda;Mala;Mala
+P;813,9534884;13071;Bueno;70000;86;Puertollano;Mala;Mala
+P;673,2673267;13071;Malo;68000;101;Puertollano;Mala;Mala
+U;527,1565495;13071;Malo;165000;313;Puertollano;Mala;Normal
+P;1375,0;14038;Bueno;275000;200;Luccena;Mala;Mala
+U;1350,0;14038;Muy Malo;189000;140;Luccena;Mala;Mala
+P;1064,285714;14038;Bueno;149000;140;Luccena;Mala;Mala
+P;855,5555556;14038;Bueno;77000;90;Luccena;Normal;Normal
+U;373,1343284;14038;Muy Malo;125000;335;Luccena;Buena;Buena
+P;375,0;23055;Muy Malo;30000;80;Linares;Buena;Buena
+P;1666,666667;23055;Bueno;150000;90;Linares;Mala;Mala
+U;1183,908046;23055;Bueno;206000;174;Linares;Mala;Mala
+U;1375,0;23055;Muy Bueno;330000;240;Linares;Mala;Mala
+P;2631,578947;28006;Malo;200000;76;Alcobendas;Buena;Buena
+P;2267,816092;28006;Muy Malo;197300;87;Alcobendas;Normal;Normal
+U;2765,957447;28006;Malo;260000;94;Alcobendas;Normal;Normal
+P;3750,0;28006;Muy Bueno;450000;120;Alcobendas;Normal;Normal
+P;1971,232877;28058;Malo;143900;73;Fuenlabrada;Mala;Mala
+P;1083,13253;28058;Muy Malo;89900;83;Fuenlabrada;Buena;Normal
+P;2264,056604;28058;Bueno;239990;106;Fuenlabrada;Mala;Mala
+P;2074,074074;28058;Bueno;280000;135;Fuenlabrada;Mala;Mala
+P;5166,666667;28079;Bueno;310000;60;Madrid;Mala;Mala
+P;1785,714286;28079;Malo;125000;70;Madrid;Buena;Buena
+U;4198,701299;28079;Muy Bueno;969900;231;Madrid;Normal;Normal
+P;2491,525424;28079;Muy Malo;147000;59;Madrid;Buena;Normal
+P;4205,607477;28079;Bueno;450000;107;Madrid;Normal;Normal
+U;5909,090909;28079;Malo;650000;110;Madrid;Mala;Mala
+P;6875,0;28079;Muy Bueno;275000;40;Madrid;Mala;Mala
+P;4250,0;29054;Bueno;170000;40;Fuengirola;Mala;Mala
+P;2239,583333;29054;Muy Malo;215000;96;Fuengirola;Mala;Mala
+P;2106,060606;29054;Bueno;139000;66;Fuengirola;Buena;Normal
+P;3458,333333;29054;Muy Bueno;249000;72;Fuengirola;Mala;Mala
+U;3928,571429;29054;Bueno;385000;98;Fuengirola;Mala;Mala
+U;1645,728643;29054;Muy Bueno;655000;398;Fuengirola;Buena;Buena
+P;1000,0;30039;Bueno;130000;130;Totana;Mala;Mala
+U;1533,333333;30039;Muy Bueno;230000;150;Totana;Mala;Mala
+P;647,4820144;30039;Muy Malo;90000;139;Totana;Normal;Mala
+P;863,6363636;30039;Malo;76000;88;Totana;Mala;Mala
+P;826,0869565;30039;Bueno;76000;92;Totana;Normal;Normal
+U;593,3333333;30039;Muy Bueno;89000;150;Totana;Buena;Buena
+P;1469,387755;33044;Bueno;72000;49;Oviedo;Normal;Mala
+P;2757,009346;33044;Muy Bueno;295000;107;Oviedo;Mala;Mala
+P;1600,0;33044;Muy Malo;80000;50;Oviedo;Mala;Mala
+U;1561,514196;33044;Muy Bueno;495000;317;Oviedo;Normal;Normal
+U;875,0;33044;Malo;350000;400;Oviedo;Buena;Buena
+P;750,0;39075;Muy Malo;60000;80;Sanatander;Buena;Buena
+P;1595,744681;39075;Bueno;150000;94;Sanatander;Buena;Buena
+P;937,5;39075;Muy Malo;75000;80;Sanatander;Buena;Buena
+P;1634,146341;41038;Muy Bueno;134000;82;Dos Hermanas;Normal;Normal
+U;1250,0;41038;Muy Malo;125000;100;Dos Hermanas;Mala;Mala
+U;2032,258065;41038;Muy Bueno;315000;155;Dos Hermanas;Mala;Mala
+P;1300,0;46190;Malo;130000;100;Paterna;Normal;Mala
+U;2220,0;46190;Malo;333000;150;Paterna;Mala;Mala
