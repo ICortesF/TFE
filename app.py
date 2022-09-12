@@ -57,7 +57,17 @@ def main(argv):
     import pyDMNrules
     dmnRules =  pyDMNrules.DMN()
 
-   
+    rulesfile = "Rules/CasodeUsoA.xlsx"     
+    if (casodeuso!= 'A'):
+      rulesfile = "Rules/CasodeUsoB.xlsx"
+      
+    status = dmnRules.load(rulesfile)
+    if 'errors' in status:
+        print(rulesfile+' has errors', status['errors'])
+        sys.exit(0)
+    else:
+        print(rulesfile+' loaded')
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
