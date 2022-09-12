@@ -48,7 +48,8 @@ def procesar_fichero(inputfile,outputfile, dmnRules):
   dfInput.insert(len(dfInput.columns), "CalificaInversion", dfResults['CalificaInversion Result'], allow_duplicates=True)
   if len(outputfile)>0:
     dfInput.to_csv(outputfile, index=False, decimal=',', sep=';')
-
+ 
+  sys.displayhook(dfInput)
 
 def main(argv):
     casodeuso = "B"
