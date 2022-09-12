@@ -15,6 +15,22 @@ def print_help():
   print('               Municipio                   Cod.Ine')
   print('               Estado                      Muy Bueno/Bueno/Malo/Muy Malo')
 
+def procesar_datos(tipologia, precioM2Venta, municipio, estado, dmnRules):
+  data = {}
+  data['Tipología'] = tipologia
+  data['PrecioM2Venta'] = precioM2Venta
+  data['Municipio']= municipio
+  data['Estado']= estado
+  print('Imput Data',repr(data))
+
+  (status, newData) = dmnRules.decide(data)
+
+  for result in newData:
+      if result['Executed Rule'][1] == "CalificaInversion":
+          print('CalificaInversion Result:',result['Result']['CalificaInversion Result'])
+  if 'errors' in status:
+      print('With errors', status['errors'])
+
 
 
 def main(argv):
