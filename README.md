@@ -1,4 +1,4 @@
-# TFG: Tablas de decisión en la Ingeniería del Conocimiento, caso de uso.
+# TFE: Tablas de decisión en la Ingeniería del Conocimiento, caso de uso.
 
 -   **Autor**: Israel Alejandro Cortés Flores
 -   **Director**: Juan David Granada Mejía
